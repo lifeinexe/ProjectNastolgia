@@ -1,4 +1,4 @@
-## Project Nastolgia
+# Project Nastolgia
 
 <h4 align="center">
   <img alt="common readme" src="background.png">
