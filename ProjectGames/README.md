@@ -1,9 +1,7 @@
-# Snake (2D)
+# 🐍 Змейка 
 
-> Snake is the common name for a video game concept where the player maneuvers a line which grows in length, with the line itself being a primary obstacle. The concept originated in the 1976 arcade game Blockade, and the ease of implementing Snake has led to hundreds of versions (some of which have the word snake or worm in the title) for many platforms. After a variant was preloaded on Nokia mobile phones in 1998, there was a resurgence of interest in the snake concept as it found a larger audience.
+> Змейка - это общее название концепции видеоигры, в которой игрок маневрирует линией, которая увеличивается в длину, причем сама линия является основным препятствием. Концепция возникла в 1976 году в аркадной игре Blockade, и простота реализации Змейки привела к появлению сотен версий (некоторые из которых имеют слово snake или worm в названии) для многих платформ. После того, как вариант был предварительно загружен на мобильные телефоны Nokia в 1998 году, произошел всплеск интереса к концепции snake, поскольку она нашла более широкую аудиторию.
 
-- **Difficulty**: Beginner
-- **Topics**: Grids, Data Structures
-- **Version**: Unity 2019.4 LTS
-- [**Download**](https://github.com/zigurous/unity-snake-tutorial/archive/refs/heads/main.zip)
-- [**Watch Video**](https://youtu.be/U8gUnpeaMbQ)
+
+- **Версия**: Unity 2020.3.21f
+
