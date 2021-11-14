@@ -1,3 +1,3 @@
 <h4 align="center">
-  <img alt="common readme" src="background.png">
+  <img alt="common readme" src="back.png">
 </h4>
