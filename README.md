@@ -9,6 +9,6 @@
 
 ## Ресурсы
 
-- Игровой движок - Unity ![version](https://img.shields.io/badge/Unity-2020.3.21f1-green)
+Игровой движок - Unity ![version](https://img.shields.io/badge/Unity-2020.3.21f1-green)
 
 
