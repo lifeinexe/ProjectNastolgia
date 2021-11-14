@@ -11,6 +11,7 @@ public class PausePong : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        GamesIsPaused = false;
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (GamesIsPaused)
@@ -40,6 +41,7 @@ public class PausePong : MonoBehaviour
 
     public void LoadMenu()
     {
-        SceneManager.LoadScene(0);
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(0, LoadSceneMode.Single);
     }
 }

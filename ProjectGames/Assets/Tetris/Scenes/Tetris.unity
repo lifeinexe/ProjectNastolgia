@@ -717,7 +717,6 @@ GameObject:
   - component: {fileID: 1149908807}
   - component: {fileID: 1149908806}
   - component: {fileID: 1149908805}
-  - component: {fileID: 1149908804}
   - component: {fileID: 1149908809}
   m_Layer: 6
   m_Name: PauseUI
@@ -726,19 +725,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1149908804
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1149908803}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bdff2ffc48c24a4086c009600d551cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pauseMenuUI: {fileID: 1455660861}
 --- !u!114 &1149908805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -829,7 +815,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1149908803}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce1785b7ce6934141ae2e79f42cb7658, type: 3}
+  m_Script: {fileID: 11500000, guid: 90ee602de4834724cbad9ceb4849b72c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 1455660861}
@@ -1144,7 +1130,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1149908804}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: LoadMenu
         m_Mode: 1
@@ -1276,7 +1262,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1149908804}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: Resume
         m_Mode: 1

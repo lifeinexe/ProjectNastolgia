@@ -13,6 +13,7 @@ public class PauseTetris : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        GamesIsPaused = false;
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (GamesIsPaused)
@@ -46,6 +47,6 @@ public class PauseTetris : MonoBehaviour
 
     public void LoadMenu()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(0, LoadSceneMode.Single);
     }
 }

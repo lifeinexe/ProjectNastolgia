@@ -13,6 +13,7 @@ public class PauseSnake : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        GamesIsPaused = false;
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (GamesIsPaused)
