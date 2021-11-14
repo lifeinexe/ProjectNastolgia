@@ -11,5 +11,6 @@
 
 - Игровой движок - Unity ![version](https://img.shields.io/badge/Unity-2020.3.21f1-green)
 - Язык программирования - C#
+- Редактор кода - Visual Studio 2017
 
 
