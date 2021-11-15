@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using System.Collections;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(BoxCollider2D))]
 public class Snake : MonoBehaviour
@@ -8,9 +10,13 @@ public class Snake : MonoBehaviour
     public Transform segmentPrefab;
     public Vector2 direction = Vector2.right;
     public int initialSize = 4;
+    public int score = 0;
+    public Text myText;
+
 
     private void Start()
     {
+        score = 0;
         ResetState();
     }
 
@@ -57,12 +63,13 @@ public class Snake : MonoBehaviour
     {
         Transform segment = Instantiate(this.segmentPrefab);
         segment.position = _segments[_segments.Count - 1].position;
-
         _segments.Add(segment);
+
     }
 
     public void ResetState()
     {
+        score = 0;
         this.direction = Vector2.right;
         this.transform.position = Vector3.zero;
 
@@ -83,9 +90,16 @@ public class Snake : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Food") {
+        if (other.tag == "Food")
+        {
+            score++;
+            myText.text = score.ToString();
             Grow();
-        } else if (other.tag == "Obstacle") {
+        }
+         else if (other.tag == "Obstacle")
+        {
+            score = 0;
+            myText.text = score.ToString();
             ResetState();
         }
     }

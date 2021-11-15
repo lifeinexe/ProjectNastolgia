@@ -9,6 +9,7 @@ public class PauseTetris : MonoBehaviour
     public GameObject pauseMenuUI;
     public GameObject border;
     public GameObject ghost;
+    public GameObject ControlText;
 
     // Update is called once per frame
     void Update()
@@ -34,6 +35,7 @@ public class PauseTetris : MonoBehaviour
         GamesIsPaused = false;
         border.SetActive(true);
         ghost.SetActive(true);
+        ControlText.SetActive(true);
     }
 
     void Pause()
@@ -43,6 +45,7 @@ public class PauseTetris : MonoBehaviour
         GamesIsPaused = true;
         border.SetActive(false);
         ghost.SetActive(false);
+        ControlText.SetActive(false);
     }
 
     public void LoadMenu()

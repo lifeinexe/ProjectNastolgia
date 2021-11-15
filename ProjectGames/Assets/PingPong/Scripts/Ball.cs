@@ -3,7 +3,7 @@
 [RequireComponent(typeof(Rigidbody2D))]
 public class Ball : MonoBehaviour
 {
-    public float speed = 200f;
+    public float speed = 80f;
     public new Rigidbody2D rigidbody { get; private set; }
 
     private void Awake()
@@ -19,6 +19,7 @@ public class Ball : MonoBehaviour
 
     public void AddStartingForce()
     {
+
         // Flip a coin to determine if the ball starts left or right
         float x = Random.value < 0.5f ? -1f : 1f;
 
