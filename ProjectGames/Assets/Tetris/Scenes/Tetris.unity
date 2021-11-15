@@ -987,7 +987,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -855, y: -180}
+  m_AnchoredPosition: {x: -866.25, y: -180}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1012935146
@@ -1012,7 +1012,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: abf2aefbdd953f64b8127aa82fec90f0, type: 3}
-    m_FontSize: 100
+    m_FontSize: 90
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -1023,7 +1023,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "A \t| S | D - \u043F\u0435\u0440\u0435\u043C\u0435\u0441\u0442\u0438\u0442\u044C\nQ
+  m_Text: "A \t| S | D  \u2190 \u2193 \u2192 - \u043F\u0435\u0440\u0435\u043C\u0435\u0441\u0442\u0438\u0442\u044C\nQ
     | E - \u043F\u0435\u0440\u0435\u0432\u0435\u0440\u043D\u0443\u0442\u044C\nSpace
     - \u043F\u043E\u0441\u0442\u0430\u0432\u0438\u0442\u044C"
 --- !u!222 &1012935147
