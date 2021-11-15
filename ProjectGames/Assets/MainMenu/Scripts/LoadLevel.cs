@@ -8,5 +8,6 @@ public class LoadLevel : MonoBehaviour
     public void Scenes (int numberScenes)
     {
         SceneManager.LoadScene(numberScenes);
+        Time.timeScale = 1f;
     }
 }
