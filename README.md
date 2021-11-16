@@ -37,5 +37,5 @@
   - Красотина Арина - системный аналитик 🙇‍♀️
  
  ## Тестирование
- [Тестирование](https://docs.google.com/document/d/1a7UV8YcuYvUwGvz0sj2x_r0sFhJXuRmSF8ICc9Zuj0c/edit?usp=sharing)
+ [Тестирование](https://docs.google.com/document/d/1sHU3b1TA7nzS1kXbxlEPVKNewI1lF21uDfHrQkfWvj8/edit?usp=sharing)
 
