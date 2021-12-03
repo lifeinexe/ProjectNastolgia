@@ -37,6 +37,6 @@
   - Красотина Арина - системный аналитик 🙇‍♀️
  
  ## Документы
- [Тестирование](https://docs.google.com/document/d/1sHU3b1TA7nzS1kXbxlEPVKNewI1lF21uDfHrQkfWvj8/edit?usp=sharing)
- [Техническое задание](https://github.com/lifeinexe/ProjectNastolgia/blob/main/TZ.docx)
+ - [Тестирование](https://docs.google.com/document/d/1sHU3b1TA7nzS1kXbxlEPVKNewI1lF21uDfHrQkfWvj8/edit?usp=sharing)
+ - [Техническое задание](https://github.com/lifeinexe/ProjectNastolgia/blob/main/TZ.docx)
 
